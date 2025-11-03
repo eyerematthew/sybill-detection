@@ -1,0 +1,41 @@
+database:
+  host: localhost
+  port: 5432
+  name: sybil_detection
+  user: postgres
+  password: ${DB_PASSWORD}
+
+redis:
+  host: localhost
+  port: 6379
+  db: 0
+
+ethereum:
+  rpc_url: https://eth-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}
+  start_block: 15000000
+  batch_size: 1000
+
+detection:
+  models:
+    - xgboost
+    - lightgbm
+    - random_forest
+  threshold: 0.75
+  ensemble_method: voting
+
+features:
+  temporal_window_days: 90
+  graph_depth: 3
+  min_transaction_count: 5
+
+monitoring:
+  enable_logging: true
+  log_level: INFO
+  metrics_port: 8000
+
+api:
+  host: 0.0.0.0
+  port: 8080
+  workers: 4
+  cors_origins:
+    - "*"

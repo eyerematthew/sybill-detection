@@ -2,7 +2,7 @@
 
 A production-ready machine learning system for detecting Sybil wallets on Ethereum blockchain. This solution uses ensemble learning, graph analysis, and behavioral patterns to identify coordinated wallet clusters engaging in reward farming and platform manipulation.
 
-**Pond Profile:** https://pond0x.com/@eyerematthew
+**Pond Profile:** https://cryptopond.xyz/developer/fcca131c-6b5f-11f0-a1f3-024775222cc3
 
 ## Problem Definition
 
@@ -383,7 +383,7 @@ If you use this system in research or production:
 
 ## Contact
 
-- Pond Profile: https://pond0x.com/@eyerematthew
+- Pond Profile: https://cryptopond.xyz/developer/fcca131c-6b5f-11f0-a1f3-024775222cc3
 - GitHub: @eyerematthew
 
 ## Acknowledgments
